@@ -1,7 +1,11 @@
 import argparse
+from test.module import TestModule
+
 
 if __name__ == '__main__':
-    modules = {}
+    modules = {
+        'test-module': TestModule
+    }
 
     parser = argparse.ArgumentParser(description='Automation')
     parser.add_argument('module', help='Module to run')

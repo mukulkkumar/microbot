@@ -4,7 +4,7 @@ from db_test import TestDB
 class TestModule(object):
 
     scripts = {
-        'test': TestDB
+        'test-script': TestDB
     }
 
     def __init__(self, script, optional_arg=None):
