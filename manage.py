@@ -1,7 +1,6 @@
 import argparse
 from test.module import TestModule
 
-
 if __name__ == '__main__':
     modules = {
         'test-module': TestModule
